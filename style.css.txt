@@ -1,6 +1,6 @@
 /* Stiluri generale pentru întregul site */
 body {
-    background-color: #d3c6b3; /* Fundal gri nude */
+    background-color: #d3c6b3; /* Fundal lila nude */
     color: #333333; /* Text de culoare gri închis/negru */
     font-family: Arial, sans-serif; /* Set font general */
     margin: 0;
