@@ -1,0 +1,99 @@
+/* Stiluri generale pentru întregul site */
+body {
+    background-color: #d3c6b3; /* Fundal gri nude */
+    color: #333333; /* Text de culoare gri închis/negru */
+    font-family: Arial, sans-serif; /* Set font general */
+    margin: 0;
+    padding: 0;
+}
+
+/* Stilizează anteturile */
+h1, h2, h3, h4, h5, h6 {
+    color: #111111; /* Culoare neagră pentru anteturi */
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Stilizează linkurile */
+a {
+    color: #333333; /* Gri închis/negru pentru linkuri */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000; /* Negru pentru hover pe linkuri */
+    text-decoration: underline;
+}
+
+/* Stilizează butoanele */
+button {
+    background-color: #333333; /* Fundal negru */
+    color: #ffffff; /* Text alb */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555555; /* Gri închis la hover */
+}
+
+/* Stiluri pentru galerii și imagini */
+.artworks-gallery {
+    background-color: #f5f5f5; /* Fundal gri foarte deschis pentru galerie */
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Stilizează imaginile */
+.artworks-gallery img {
+    width: 200px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.artworks-gallery img:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+}
+
+/* Stiluri pentru secțiuni */
+section {
+    background-color: #e0dcd6; /* Fundal gri-nude pentru secțiuni */
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Stiluri pentru footer */
+footer {
+    background-color: #111111; /* Negru pentru footer */
+    color: #ffffff; /* Text alb în footer */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Stiluri pentru navigație */
+nav {
+    background-color: #333333; /* Fundal gri închis/negru pentru meniul de navigare */
+    padding: 15px;
+}
+
+nav a {
+    color: #ffffff; /* Text alb pentru linkurile din navigare */
+    margin: 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #dddddd; /* Gri deschis la hover pe linkurile din navigare */
+}
