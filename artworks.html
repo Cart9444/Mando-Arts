@@ -4,6 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Artworks</title>
+    <style>
+        /* Stilizează containerul galeriei */
+        .artworks-gallery {
+            display: flex; /* Aliniere orizontală */
+            flex-wrap: wrap; /* Permite imaginilor să treacă pe un nou rând dacă e nevoie */
+            justify-content: center; /* Centrul imaginilor pe pagină */
+            gap: 10px; /* Spațiere între imagini */
+        }
+
+        /* Stilizează imaginile */
+        .artworks-gallery img {
+            width: 200px; /* Setează lățimea fiecărei imagini */
+            height: auto; /* Păstrează raportul de aspect */
+            border: 2px solid #ccc; /* Border simplu în jurul imaginii */
+            border-radius: 5px; /* Colțuri rotunjite */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Umbră pentru efect estetic */
+        }
+
+        /* Stiluri suplimentare la hover */
+        .artworks-gallery img:hover {
+            transform: scale(1.05); /* Mărește imaginea când treci cu mouse-ul peste ea */
+            transition: transform 0.2s ease; /* Trecere lină la mărire */
+        }
+    </style>
 </head>
 <body>
     <h1>My Artworks</h1>
